@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/prioritize.webp",
     spareImg: "",
   },
   {
@@ -72,66 +72,84 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Transform Any Image With AI",
+    des: "Unleash Your Creative Vision with Latest AI using Cloudinary in next.js.",
+    img: "/p1.png",
+    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/cloudinary.svg",'c.svg'],
+    link: "https://transform-ai.vercel.app/",
+    
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Colab-Point - The Collaborative Interface Design Tool",
+    des: "A REAL Software-as-a-Service app with collaboration features for developers..",
+    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg", "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRaHPqp-BozKWZzkJ8wlwFOa8gKh7dPyEZNZusBKLEtf5UD6539", "/c.svg"],
+    img: "/p2.png",
+    link: "https://colab-point.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Meet-Now - Video Conferencing App",
+    des: "Simplify your video conferencing experience with Meet-Now. Seamlessly connect with colleagues and friends.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://meet-now-nu.vercel.app/"
+
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Filmix - Watch TV Shows Online, Watch Movies Online",
+    des: "Filmix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries.",
+    img: "/p4.png",
+    iconLists: ["/re.svg",'/rapidapi-icon.svg','/redux.svg','/sass.svg'],
+    link: "https://filmix.onrender.com",
+  },
+  {
+    id: 5,
+    title: "Talkies - A chat App",
+    des: " Use Talkies to stay in touch with friends and family..",
+    img: "/p5.png",
+    iconLists: ["/re.svg",'/material-ui.svg','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEXtWpLsWI/rWJDsWZDsVY3rT4rvcqD1qMTzmLjxjbJErwccAAAAA3RSTlMJqvuLIICmAAAAoklEQVR4AXXRRQHDMABA0U7BSEIVrKF7aAJKAornUWZgIGCotszwb68Q1BY6aDJW2hZ02ml6l4YGelXkvEMuoovFa8KHOhJ1ren6sSU+8lwSxiYJwyO6s4pM/v8+/DSEnLMOQdYsHXWJ1Lshty1hW52hAOgOxRiEHWKAcWeo5z1+Bg2ZZQmLT88L9sjOMk+gpFRFfkVYfswqdhoc7ODYB5eSAlK8Y0/bhytoAAAAAElFTkSuQmCC','/redux.svg'],
+    link: "https://talkies-rhi1.onrender.com",
+  },
+  {
+    id: 6,
+    title: "myTube -A Youtube clone",
+    des: "Explore our official blog for the latest news, creator and artist profiles, culture and trends analyses, and behind-the-scenes insights..",
+    img: "/p6.png",
+    iconLists: ["/re.svg",'/rapidapi-icon.svg','/material-ui.svg','/redux.svg'],
+    link: "https://mytube-react.onrender.com",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Numan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Numan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Numan is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Numan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Numan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Numan is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Numan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Numan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Numan is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Numan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Numan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Numan is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Numan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Numan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Numan is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -180,16 +198,16 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev ",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
