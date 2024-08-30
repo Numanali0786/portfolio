@@ -75,15 +75,28 @@ export const projects = [
     title: "Transform Any Image With AI",
     des: "Unleash Your Creative Vision with Latest AI using Cloudinary in next.js.",
     img: "/p1.png",
-    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/cloudinary.svg",'c.svg'],
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/cloudinary.svg",
+      "c.svg",
+    ],
     link: "https://transform-ai.vercel.app/",
-    
   },
   {
     id: 2,
     title: "Colab-Point - The Collaborative Interface Design Tool",
     des: "A REAL Software-as-a-Service app with collaboration features for developers..",
-    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg", "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRaHPqp-BozKWZzkJ8wlwFOa8gKh7dPyEZNZusBKLEtf5UD6539", "/c.svg"],
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRaHPqp-BozKWZzkJ8wlwFOa8gKh7dPyEZNZusBKLEtf5UD6539",
+      "/c.svg",
+    ],
     img: "/p2.png",
     link: "https://colab-point.vercel.app/",
   },
@@ -93,15 +106,14 @@ export const projects = [
     des: "Simplify your video conferencing experience with Meet-Now. Seamlessly connect with colleagues and friends.",
     img: "/p3.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://meet-now-nu.vercel.app/"
-
+    link: "https://meet-now-nu.vercel.app/",
   },
   {
     id: 4,
     title: "Filmix - Watch TV Shows Online, Watch Movies Online",
     des: "Filmix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries.",
     img: "/p4.png",
-    iconLists: ["/re.svg",'/rapidapi-icon.svg','/redux.svg','/sass.svg'],
+    iconLists: ["/re.svg", "/rapidapi-icon.svg", "/redux.svg", "/sass.svg"],
     link: "https://filmix.onrender.com",
   },
   {
@@ -109,7 +121,12 @@ export const projects = [
     title: "Talkies - A chat App",
     des: " Use Talkies to stay in touch with friends and family..",
     img: "/p5.png",
-    iconLists: ["/re.svg",'/material-ui.svg','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEXtWpLsWI/rWJDsWZDsVY3rT4rvcqD1qMTzmLjxjbJErwccAAAAA3RSTlMJqvuLIICmAAAAoklEQVR4AXXRRQHDMABA0U7BSEIVrKF7aAJKAornUWZgIGCotszwb68Q1BY6aDJW2hZ02ml6l4YGelXkvEMuoovFa8KHOhJ1ren6sSU+8lwSxiYJwyO6s4pM/v8+/DSEnLMOQdYsHXWJ1Lshty1hW52hAOgOxRiEHWKAcWeo5z1+Bg2ZZQmLT88L9sjOMk+gpFRFfkVYfswqdhoc7ODYB5eSAlK8Y0/bhytoAAAAAElFTkSuQmCC','/redux.svg'],
+    iconLists: [
+      "/re.svg",
+      "/material-ui.svg",
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAHlBMVEXtWpLsWI/rWJDsWZDsVY3rT4rvcqD1qMTzmLjxjbJErwccAAAAA3RSTlMJqvuLIICmAAAAoklEQVR4AXXRRQHDMABA0U7BSEIVrKF7aAJKAornUWZgIGCotszwb68Q1BY6aDJW2hZ02ml6l4YGelXkvEMuoovFa8KHOhJ1ren6sSU+8lwSxiYJwyO6s4pM/v8+/DSEnLMOQdYsHXWJ1Lshty1hW52hAOgOxRiEHWKAcWeo5z1+Bg2ZZQmLT88L9sjOMk+gpFRFfkVYfswqdhoc7ODYB5eSAlK8Y0/bhytoAAAAAElFTkSuQmCC",
+      "/redux.svg",
+    ],
     link: "https://talkies-rhi1.onrender.com",
   },
   {
@@ -117,7 +134,12 @@ export const projects = [
     title: "myTube -A Youtube clone",
     des: "Explore our official blog for the latest news, creator and artist profiles, culture and trends analyses, and behind-the-scenes insights..",
     img: "/p6.png",
-    iconLists: ["/re.svg",'/rapidapi-icon.svg','/material-ui.svg','/redux.svg'],
+    iconLists: [
+      "/re.svg",
+      "/rapidapi-icon.svg",
+      "/material-ui.svg",
+      "/redux.svg",
+    ],
     link: "https://mytube-react.onrender.com",
   },
 ];
@@ -198,24 +220,10 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev ",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web Development ",
+    desc: "Developed 20+ websites and clones using React, nextJS and integrating many other latest tehnologies.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -231,5 +239,28 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    title: "HTML",
+    rate: "90%",
+  },
+  {
+    id: 2,
+    title: "CSS",
+    rate: "90%",
+  },
+  {
+    id: 3,
+    title: "Javascript",
+    rate: "90%",
+  },
+  {
+    id: 4,
+    title: "React",
+    rate: "90%",
   },
 ];

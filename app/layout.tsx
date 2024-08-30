@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
+import AnimatedCursor from "react-animated-cursor"
 
 export const metadata: Metadata = {
   title: "Numan's Portfolio",
@@ -28,7 +29,21 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+<AnimatedCursor
+showSystemCursor={true}
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={2}
+   innerStyle={{
+    // backgroundColor: 'transparent'
+  }}
+  outerStyle={{
+    backgroundColor: 'transparent',
+    border: '2px solid gray'
+  }}
+/>
+         {children}
         </ThemeProvider>
       </body>
     </html>
