@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -10,7 +10,7 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, targeting open communication ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] ",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/prioritize.webp",
@@ -262,5 +262,46 @@ export const skills = [
     id: 4,
     title: "React",
     rate: "90%",
+  },
+  {
+    id: 5,
+    title: "Redux",
+    rate: "80%",
+  },
+
+  {
+    id: 7,
+    title: "NextJS",
+    rate: "70%",
+  },
+  {
+    id: 8,
+    title: "TailwindCSS",
+    rate: "80%",
+  },
+  {
+    id: 9,
+    title: "Data Structure",
+    rate: "80%",
+  },
+  {
+    id: 10,
+    title: "SQL",
+    rate: "80%",
+  },
+  {
+    id: 6,
+    title: "NodeJS",
+    rate: "70%",
+  },
+];
+
+export const education = [
+  {
+    id: 1,
+    degree: "Bachlor of Technology, CSE",
+    year: "2017 - 2021",
+    college: "ITS Engineering College",
+    score: "79%",
   },
 ];

@@ -3,13 +3,13 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section>
+    <section id="skills">
       <h1 className="heading">
         My <span className="text-purple">Skills</span>
       </h1>
       <div className="flex gap-8 md:gap-32 my-8">
         <div className="flex-1 flex flex-col gap-6">
-          {skills.slice(0, 2).map((skill) => (
+          {skills.slice(0, 5).map((skill) => (
             <div
               key={skill.id}
               className="
@@ -22,7 +22,7 @@ const Skills = () => {
           ))}
         </div>
         <div className="flex-1  flex flex-col gap-6">
-          {skills.slice(2).map((skill) => (
+          {skills.slice(5).map((skill) => (
             <div
               key={skill.id}
               className="flex items-center justify-between flex-1 border-b-2 

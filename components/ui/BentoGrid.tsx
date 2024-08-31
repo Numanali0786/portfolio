@@ -6,7 +6,6 @@ import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
 
-
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
@@ -52,7 +51,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = [ "NextJS","ReactJS", "Typescript"];
+  const leftLists = ["NextJS", "ReactJS", "Typescript"];
   const rightLists = ["Redux", "MaterialUI", "TailwindCSS"];
 
   const [copied, setCopied] = useState(false);
@@ -102,8 +101,9 @@ export const BentoGridItem = ({
         </div>
         {/* 1.2 */}
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -127,7 +127,7 @@ export const BentoGridItem = ({
             titleClassName,
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
-          >
+        >
           {/* 1.4.1 */}
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
@@ -137,17 +137,17 @@ export const BentoGridItem = ({
           {/* remove mb-2 mt-2 */}
           {/* 1.4.2 */}
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-            >
+            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 text-gray-100`}
+          >
             {title}
           </div>
 
           {/* for the github 3d globe */}
-            {/* 1.4.3 */}
+          {/* 1.4.3 */}
           {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
-            {/* 1.4.4 */}
+          {/* 1.4.4 */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
@@ -185,8 +185,9 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
@@ -206,8 +207,6 @@ export const BentoGridItem = ({
     </div>
   );
 };
-
-
 
 // structure of BentoGridItem
 // <div className="">
